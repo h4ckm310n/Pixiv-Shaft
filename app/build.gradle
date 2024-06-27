@@ -11,7 +11,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "ceui.lisa.pixiv"
+        applicationId "ceui.lisa.pixiv_ssj"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 280
