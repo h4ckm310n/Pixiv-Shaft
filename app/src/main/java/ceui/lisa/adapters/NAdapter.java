@@ -75,6 +75,7 @@ public class NAdapter extends BaseAdapter<NovelBean, RecyNovelBinding> {
         } else {
             bindView.baseBind.title.setText(target.getTitle());
         }
+        bindView.baseBind.date.setText(target.getCreate_date().substring(0, 10));
         bindView.baseBind.novelTag.setAdapter(new TagAdapter<TagsBean>(target.getTags()) {
             @Override
             public View getView(FlowLayout parent, int position, TagsBean s) {
